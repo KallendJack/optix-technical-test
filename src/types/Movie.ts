@@ -8,3 +8,10 @@ export type Movie = {
 }
 
 export type Movies = Movie[]
+
+export type MovieCompany = {
+    id: string
+    name: string
+}
+
+export type MovieCompanies = MovieCompany[]
